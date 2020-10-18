@@ -34,13 +34,23 @@ body{
     text-decoration: none;
 }
 
-div.gallery {
+div.gallery-portrait {
   float: left;
   width: 49%;
 }
 
+div.gallery-landscape {
+  float: left;
+  width: 100%;
+}
 
-div.gallery img {
+
+div.gallery-portrait img {
+  width: 90%;
+  max-height: 5000px
+}
+
+div.gallery-landscape img {
   width: 90%;
   max-height: 5000px
 }
