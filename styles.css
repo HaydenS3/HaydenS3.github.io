@@ -31,7 +31,7 @@ body{
 
 .link {
     color: rgb(148, 150, 255);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 div.gallery-portrait {
